@@ -1,0 +1,30 @@
+@import 'partials/setup';
+@import 'partials/utils';
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/about';
+@import 'partials/work.scss';
+@import 'partials/contact.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, #about, #work {
+    max-width: 100vw;
+}
+
+// #about, #work {
+//     // display: none;
+// }
+
+.wrapper {
+    width: 85%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}

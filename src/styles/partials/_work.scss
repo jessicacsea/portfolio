@@ -1,0 +1,74 @@
+#work {
+  position: relative;
+  min-height: 100vh;
+  .wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    h2.workTitle {
+      font-size: 10rem;
+      color: rgba(68,143,163, 0.4);
+      grid-column: 1 / -1;
+      grid-row: 1 / span 1;
+      position: absolute;
+      top: -11%;
+      left: 4%;
+    }
+    p {
+      grid-column: 1 / -1;
+      grid-row: 1 / span 1;
+      font-size: 1.4rem;
+    }
+  }
+  .projectContainer {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3% 0;
+    .project {
+      margin: 15px;
+      border: $darkblue solid 2px;
+      padding: 20px;
+    }
+    .projectTitle {
+      font-family: $title;
+      font-size: 3rem;
+      color: $darkblue;
+    }
+    .projectDesc {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    .githubLink {
+      margin-left: 10px;
+    }
+    .live, .githubLink {
+      font-family: $title;
+      display: inline-block;
+      a {
+        font-size: 1.2rem;
+        color: $darkblue;
+        text-decoration: none;
+      }
+    }
+    .projectOne {
+      grid-row: 1 / span 1;
+      grid-column: 1 / span 1;
+    }
+    .projectTwo {
+      grid-row: 1 / span 1;
+      grid-column: 2 / -1;
+    }
+    .projectThree {
+      grid-row: 2 / -1;
+      grid-column: 1 / span 1;
+    }
+    .projectFour {
+      grid-row: 2 / -1;
+      grid-column: 2 / -1;
+    }
+  }
+
+
+
+}

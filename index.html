@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Karla" rel="stylesheet">
   <link href="./public/assets/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="public/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
   <link rel="stylesheet" href="public/styles/style.css">
   
   <title>Jessica Sea</title>
@@ -17,18 +18,23 @@
 
 <body>
   <header>
-    <div class="wrapper">
-
+    <div class="topBar clearfix">
       <h4>JSea.</h4>
-      <nav>
-        <ul>
+      <button class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav class="menu">
+        <ul class="clearfix">
           <li><a href="#about">About</a></li>
           <li><a href="#work">My Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+    </div>
+    <div class="wrapper">
       <div class="banner">
-        <h2>Welcome!</h2>
         <h3 class="name">My name is</h3>
         <h1>Jessica Sea.</h1>
         <h3 class="developer">I'm a Front End Web Developer.</h3>
@@ -66,19 +72,7 @@
             <li><a href="https://github.com/jessicacsea"><i class="fab fa-github-alt"></i></a></li>
           </ul>
         </div>
-        <div class="skills">
-          <h2 class="skillsTitle">Skills</h2>
-          <ul>
-            <li><i class="devicon-html5-plain-wordmark"></i></li>
-            <li><i class="devicon-css3-plain-wordmark"></i></li>
-            <li><i class="devicon-sass-original"></i></li>
-            <li><i class="devicon-jquery-plain-wordmark"></i></li>
-            <li><i class="devicon-javascript-plain"></i></li>
-            <li><i class="devicon-react-original"></i></li>
-            <li><i class="devicon-gulp-plain"></i></li>
-            <li><i class="devicon-github-plain"></i></li>
-          </ul>
-        </div>
+        
       </div>
       
       <div class="mugshot">
@@ -126,7 +120,21 @@
           <p class="githubLink"><a href="#">CODE</a></p>
         </div>
       </div>
-
+    </div>
+  </section>
+  <section class="skillsSection wrapper">
+    <div class="skills">
+      <h2 class="skillsTitle">Skills</h2>
+      <ul>
+        <li><i class="devicon-html5-plain-wordmark"></i></li>
+        <li><i class="devicon-css3-plain-wordmark"></i></li>
+        <li><i class="devicon-sass-original"></i></li>
+        <li><i class="devicon-jquery-plain-wordmark"></i></li>
+        <li><i class="devicon-javascript-plain"></i></li>
+        <li><i class="devicon-react-original"></i></li>
+        <li><i class="devicon-gulp-plain"></i></li>
+        <li><i class="devicon-github-plain"></i></li>
+      </ul>
     </div>
   </section>
   
@@ -136,7 +144,7 @@
     <div class="info clearfix">
       <div class="Email">
         <i class="far fa-envelope"></i>
-        <p><a href="mailto:me@jessicasea.com">me@jessicasea.com</a></p>
+        <p><a href="mailto:me@jessicasea.com">me[AT]jessicasea[DOT]com</a></p>
       </div>
     
     <form>
@@ -144,22 +152,21 @@
       autocomplete="off" name="myForm"> -->
     
       <div class="formName floating">
-        <input class="typeBox" type="text" id="Name" name="Name">
+        <input class="typeBox" type="text" id="Name" name="Name" required>
         <label for="Name">Your Name:</label>
       </div>
       <div class="formEmail floating">
-        <input class="typeBox" type="text" id="email" name="Email">
+        <input class="typeBox" type="text" id="email" name="Email" required>
         <label for="email">E-Mail:</label>
       </div>
       <div class="formComment floating">
-        <input class="typeBox" type="text" id="Comments" name="Comments">
+        <textarea name="Comments" id="Comments"></textarea>
         <label for="Comments">Comments:</label>
       </div>
       <button type="submit" value="Send">Send</button>
     </form>
   </footer>
   
-
   <script src="public/scripts/app.js"></script>
 </body>
 

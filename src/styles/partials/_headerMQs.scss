@@ -1,0 +1,414 @@
+@media (max-width: 1400px) {
+  #about {
+    margin: 18% auto 5%;
+  }
+  #work {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1275px) {
+  .skillsSection .skills li i {
+    font-size: 4.5rem;
+  }
+
+
+}
+
+@media (max-width: 1200px) {
+  #about h2.me {
+    top: -23%;
+  }
+  .skillsSection .skills li i {
+    font-size: 4.5rem;
+  }
+
+
+}
+
+@media (max-width: 1165px) {
+  header .topBar li {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1124px) {
+  #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
+    font-size: 8rem;
+  }
+  #about .aboutMe {
+    grid-template-rows: 1fr auto;
+  }
+  #about h2.me {
+    top: -16%;
+  }
+  #about .social {
+    margin-bottom: 35px;
+  }
+  .skillsSection .skills {
+    margin: 11% 0;
+  }
+  .skillsSection .skills h2.skillsTitle {
+    bottom: 55%;
+  }
+  .skillsSection .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .skillsSection .skills li {
+    margin: 5px 6px;
+    width: 20%;
+  }
+  #work .wrapper h2.workTitle {
+    top: -8%;
+  }
+}
+@media (max-width: 998px) {
+  header .banner h1 {
+    font-size: 8rem;
+  }
+  #about {
+    margin: 0 auto 5%;
+  }
+}
+
+@media (max-width: 925px) {
+  #about p, #work p {
+    font-size: 1.2rem;
+  }  
+  #work .projectContainer .projectTitle {
+    font-size: 2.4rem;
+  }
+  #contact .info {
+    i {
+      font-size: 2.5rem;
+    }
+    a {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width:895px) {
+  header .banner .name {
+    top: 17%;
+    left: -4px;
+  }
+  header .banner h1 {
+    font-size: 7.5rem;
+  }
+  svg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 845px) {
+  #about {
+    margin: 8% auto 5%;
+  }
+  #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
+    font-size: 6rem;
+  }
+  #about h2.me {
+    top: -12%;
+  }
+  .skillsSection .skills h2.skillsTitle {
+    bottom: 71%;
+  }
+  #work .wrapper h2.workTitle {
+    top: -6%;
+  }
+  header .banner {
+    h2 {
+      font-size: 7rem;
+    }
+    h1 {
+      font-size: 6.5rem;
+    }
+    .name {
+      top: 2%;
+    }
+  }
+  #work .projectContainer .projectTitle {
+    font-size: 2rem;
+  }
+  #work .projectContainer .projectDesc {
+    font-size: 1.1rem;
+  }
+  #contact form label {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 800px) {
+  #about {
+    margin: 15% auto; 
+    h2.me {
+      top: -9%;
+    }
+  }
+  header .banner {
+    margin: 25px 0;
+  }
+  header .topBar h4 {
+    width: 2%;
+  }
+  header .topBar nav {
+    width: 80%;
+  }
+}
+@media (max-width: 735px) {
+  header {
+    height: auto;
+  }
+  header .banner {
+    margin: 50px 0;
+    name {
+      top: -3%;
+      left: -13px;
+    }
+  }
+  header .banner h1 {
+    font-size: 5rem;
+  }
+  #about {
+    margin: 3% auto 12%;
+  }
+  #about .mugshot {
+    justify-self: center;
+    grid-column: 1 / -1;
+    grid-row: 1 / span 1;
+    img {
+      height: 300px;
+    }
+  }
+  #about .aboutMe {
+    grid-template-rows: 1fr auto;
+    grid-row: 2 / span 1;
+    position: relative;
+    margin-top: 50px;
+  }
+  #about h2.me {
+    top: -30%;
+  }
+  #work {
+    margin-top: 15%;
+  }
+  #work .projectContainer .projectTitle {
+    font-size: 1.7rem;
+  }
+  #contact {
+    min-height: 80vh;
+    form label {
+      font-size: 1.3rem;
+    }
+    form input {
+      font-size: 1.4rem;
+    }
+  }
+}
+@media (max-width: 675px) {
+  #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
+    font-size: 4rem;
+  }
+  #about h2.me {
+    top: -9%;
+  }
+  .skillsSection .skills h2.skillsTitle {
+    bottom: 80%;
+  }
+  #work .wrapper h2.workTitle {
+    top: -2%;
+  }
+  #work .projectContainer {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+  #work .projectContainer .projectOne {
+    grid-row: 1 / span 1;
+    grid-column: 1 / -1;
+  }
+  #work .projectContainer .projectTwo {
+    grid-row: 2 / span 1;
+    grid-column: 1 / -1;
+  }
+  #work .projectContainer .projectThree {
+    grid-row: 3 / span 1;
+    grid-column: 1 / -1;
+  }
+  #work .projectContainer .projectFour {
+    grid-row: 4 / span 1;
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 600px) {
+  header .banner h1 {
+    font-size: 5rem;
+  }
+  header .svgContainer, svg {
+    width: 100%;
+  }
+  header .banner .name, header .banner .developer {
+    font-size: 1.5rem;
+  }
+  .hamburger {
+    display: block;
+    float: right;
+    width: 10%;
+  }
+  header .topBar nav {
+    display: none;
+    width: 200px;
+  }
+  header .topBar ul {
+    flex-direction: column;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+  header .topBar li {
+    width: 100%;
+  }
+  header .topBar .activeMenu {
+    display: block;
+    transition: 1s;  
+  }
+  #work .projectContainer {
+    grid-template-rows: repeat(4, auto);
+  }
+  #contact form input {
+    width: 100%;
+  }
+  #contact button {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 565px) {
+  header .banner h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 475px) {
+  header {
+    height: auto;
+    min-height: 0;
+  }
+  header .banner h1 {
+    font-size: 4rem;
+  }
+  #work {
+    margin-top: 17%;
+  }
+  .skillsSection .skills li i {
+    font-size: 3.5rem;
+  }
+  header .banner .name, header .banner .developer {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 464px) {
+  header .banner .name {
+    top: -2%;
+  }
+  header .banner h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .wrapper {
+    width: 90%;
+  }
+  header .banner h1 {
+    font-size: 3rem;
+  }
+  header .banner .name {
+    top: -6%;
+  }
+  header .banner .name, header .banner .developer {
+    font-size: 1.2rem;
+  }
+  #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
+    font-size: 3rem;
+  }
+  #about h2.me {
+    top: -11%;
+  }
+  .skillsSection .skills h2.skillsTitle {
+    bottom: 86%;
+  }
+  #work .wrapper h2.workTitle {
+    top: -1%;
+  }
+  #work .projectContainer .project {
+    padding: 10px;
+  }
+  #contact form input {
+    font-size: 1.2rem;
+  }
+  #about p, #work p {
+    font-size: 1.1rem;
+  }
+  #contact .info i {
+    font-size: 2rem;
+  }
+  #contact .info a {
+    font-size: 1.3rem;
+  }
+  #contact .formComment label {
+    top: -25px;
+  }
+}
+@media (max-width: 400px) {
+  #about h2.me {
+    top: -10%;
+  }
+}
+@media (max-width: 360px) {
+  header {
+    min-height: auto;
+  }
+  header .banner h1 {
+    font-size: 2.5rem;
+  }
+  header .banner .name, header .banner .developer {
+    font-size: 1.1rem;
+  }
+  #about h2.me {
+    top: -9%;
+  }
+  .hamburger {
+    padding: 10px 0px;
+  }
+  #contact .info a {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 340px) {
+  #about h2.me {
+    top: -8%;
+  }
+}
+@media (max-width: 320px) {
+  #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
+    font-size: 2.5rem;
+  }
+  #work .projectContainer .projectTitle {
+    font-size: 1.5rem;
+  }
+  #work .projectContainer .projectDesc {
+    font-size: 1rem;
+  }
+  #work .projectContainer .project {
+    padding: 10px;
+    margin: 5px;
+  }
+    #contact .info i {
+      font-size: 1.8rem;
+    }
+  }
+
+

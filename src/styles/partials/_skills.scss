@@ -1,0 +1,21 @@
+.skillsSection{
+  .skills {
+      grid-row: 3 / span 1;
+      grid-column: 1 / -1;
+      margin: 5% 0;
+      position: relative;
+  h2.skillsTitle {
+    position: absolute;
+    bottom: 9%;
+    left: -4%;
+}
+      li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0 6px;
+        i {
+          font-size: 5rem;
+        }
+      }
+    }
+}

@@ -4,16 +4,11 @@
 @import 'partials/header';
 @import 'partials/about';
 @import 'partials/work.scss';
+@import 'partials/skills.scss';
 @import 'partials/contact.scss';
+@import 'partials/headerMQs.scss';
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
-header, #about, #work {
-    max-width: 100vw;
-}
 
 // #about, #work {
 //     // display: none;
@@ -28,3 +23,5 @@ header, #about, #work {
 img {
     width: 100%;
 }
+
+

@@ -2,3 +2,12 @@ $title: 'Abril Fatface', cursive;
 $body: 'Karla', sans-serif;
 
 $darkblue: #284B63;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, #about, #work, #contact {
+    max-width: 100vw;
+}

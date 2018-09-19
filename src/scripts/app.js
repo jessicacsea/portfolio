@@ -1,18 +1,26 @@
 const hello = 'World';
 console.log(hello);
 
-// const svg = document.getElementById("svgPath");
-// const length = svg.getTotalLength();
+// function smoothScroll(target, duration) {
+//   let section = document.querySelector(target);
+//   let sectionPosition = target.getBoundingClientRect().top;
+//   let startPosition = window.pageYOffset();
 
-// svg.style.strokeDasharray = length;
+//   console.log(sectionPosition);
+// }
 
-// svg.style.strokeDashoffset = length;
+// smoothScroll('#about', 1000);
 
-// window.addEventListener('scroll', function () {
-//   const scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-
-//   const draw = length * scrollpercent;
-
-//   svg.style.strokeDashoffset = length - draw;
-// });
-
+  // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  let menu = document.querySelector("nav");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    console.log('menu clicked');
+  // Do something else, like open/close menu
+    menu.classList.toggle("activeMenu");
+    console.log('added the class')
+    
+  });

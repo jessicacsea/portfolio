@@ -41,6 +41,9 @@
       text-decoration: none;
       color: black;
     }
+    .projectDesc a:hover {
+      border-bottom: black 2px solid;
+    }
     .githubLink {
       margin-left: 10px;
     }

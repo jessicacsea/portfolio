@@ -69,7 +69,10 @@
     font-size: 8rem;
   }
   #about {
-    margin: 0 auto 5%;
+    margin: 15% auto 5%;
+  }
+  #work .projectContainer .projectTitle {
+    font-size: 2.7rem;
   }
 }
 
@@ -77,6 +80,9 @@
   #about p, #work p {
     font-size: 1.2rem;
   }  
+  #work .wrapper h2.workTitle {
+    top: -7%;
+  }
   #work .projectContainer .projectTitle {
     font-size: 2.4rem;
   }
@@ -139,9 +145,7 @@
   #contact form label {
     font-size: 1.5rem;
   }
-
 }
-
 @media (max-width: 800px) {
   #about {
     margin: 15% auto; 
@@ -173,6 +177,13 @@
   header .banner h1 {
     font-size: 5rem;
   }
+  header .banner .name {
+    top: -3%;
+    left: -2%;
+  }
+  header .banner .developer {
+    top: -10%;
+  }
   #about {
     margin: 3% auto 12%;
   }
@@ -191,7 +202,7 @@
     margin-top: 50px;
   }
   #about h2.me {
-    top: -30%;
+    top: -21%;
   }
   #work {
     margin-top: 15%;
@@ -214,13 +225,13 @@
     font-size: 4rem;
   }
   #about h2.me {
-    top: -9%;
+    top: -12%;
   }
   .skillsSection .skills h2.skillsTitle {
     bottom: 80%;
   }
   #work .wrapper h2.workTitle {
-    top: -2%;
+    top: -41px;
   }
   #work .projectContainer {
     grid-template-rows: repeat(4, 1fr);
@@ -289,6 +300,9 @@
   header .banner h1 {
     font-size: 4rem;
   }
+  #about h2.me {
+    top: -11%;
+  }
 }
 
 @media (max-width: 475px) {
@@ -299,6 +313,9 @@
   header .banner h1 {
     font-size: 4rem;
   }
+  #about h2.me {
+    top: -9%;
+  }
   #work {
     margin-top: 17%;
   }
@@ -307,6 +324,9 @@
   }
   header .banner .name, header .banner .developer {
     font-size: 1.3rem;
+  }
+  #contact .info a {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 464px) {
@@ -331,11 +351,14 @@
   header .banner .name, header .banner .developer {
     font-size: 1.2rem;
   }
+  header .banner .developer {
+    top: -5%;
+  }
   #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
     font-size: 3rem;
   }
   #about h2.me {
-    top: -11%;
+    top: -7%;
   }
   .skillsSection .skills h2.skillsTitle {
     bottom: 86%;
@@ -364,7 +387,7 @@
 }
 @media (max-width: 400px) {
   #about h2.me {
-    top: -10%;
+    top: -6%;
   }
 }
 @media (max-width: 360px) {
@@ -378,7 +401,7 @@
     font-size: 1.1rem;
   }
   #about h2.me {
-    top: -9%;
+    top: -6%;
   }
   .hamburger {
     padding: 10px 0px;
@@ -389,12 +412,15 @@
 }
 @media (max-width: 340px) {
   #about h2.me {
-    top: -8%;
+    top: -5%;
   }
 }
 @media (max-width: 320px) {
   #about h2.me, .skillsSection .skills h2.skillsTitle, #work .wrapper h2.workTitle, #contact h2 {
     font-size: 2.5rem;
+  }
+  #about h2.me {
+    top: -4%;
   }
   #work .projectContainer .projectTitle {
     font-size: 1.5rem;

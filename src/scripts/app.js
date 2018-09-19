@@ -1,15 +1,18 @@
 const hello = 'World';
 console.log(hello);
 
-// function smoothScroll(target, duration) {
-//   let section = document.querySelector(target);
-//   let sectionPosition = target.getBoundingClientRect().top;
-//   let startPosition = window.pageYOffset();
+$(function () {
+window.sr = ScrollReveal({ reset: true });
+  sr.reveal('.me', {delay: 500});
+  sr.reveal('.workTitle', { delay: 500 });
+  sr.reveal('.skillsTitle', { delay: 500 });
+  sr.reveal('.contactTitle', { delay: 500 });
+  sr.reveal('.project', { scale: 0.85 });
 
-//   console.log(sectionPosition);
-// }
+$('.menu a').smoothScroll({
+  offset: -10
+});
 
-// smoothScroll('#about', 1000);
 
   // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
@@ -24,3 +27,4 @@ console.log(hello);
     console.log('added the class')
     
   });
+});

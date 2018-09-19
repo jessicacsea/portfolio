@@ -34,10 +34,12 @@
       font-size: 3rem;
       color: $darkblue;
     }
-    .projectDesc {
+    .projectDesc, .projectDesc a {
       font-size: 1.2rem;
       line-height: 1.5;
       margin-bottom: 10px;
+      text-decoration: none;
+      color: black;
     }
     .githubLink {
       margin-left: 10px;
